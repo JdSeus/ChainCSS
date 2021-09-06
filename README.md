@@ -36,10 +36,10 @@ This method removes the cssClass of the element after the time setted. If the ti
 This method adds the cssClass immediately to the element and removes it after the time setted.
 
 ##### transitionToClass(cssClass, transitionClass, time)
-This method will add the CssClass to the element after the time setted. Before this time, the element will have the transitionClass atached to it.
+This method will add the CssClass to the element after the time setted. Before this time, the element will have the transitionClass attached to it.
 
 ##### transitionToNotClass(cssClass, transitionClass, time)
-This method will remove the CssClass of the element after the time setted. Before this time, the element will have the transitionClass atached to it.
+This method will remove the CssClass of the element after the time setted. Before this time, the element will have the transitionClass attached to it.
 
 ##### delay(callback, time)
 This method is a simple delay with a callback after the time setted. It can be chained alongside the other methods, making it useful for general stuff.
