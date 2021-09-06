@@ -44,6 +44,9 @@ This method will remove the CssClass of the element after the time setted. Befor
 ##### delay(callback, time)
 This method is a simple delay with a callback after the time setted. It can be chained alongside the other methods, making it useful for general stuff.
 
+
+
+
 LICENSE
 ======= 
 
