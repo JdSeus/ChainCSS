@@ -18,7 +18,7 @@ ChainCSS(element).addClass('myClass', 1000)
 
 It's called ChainCSS because the methods can be chained:
 ```javascript
-ChainCSS(element).addClass('myClass', 1000).removeClass('myClass', 1000).keepClass('KeepForThatTime', 1000).transitionToClass('ToClass', 'TransitionClass', 1000)
+ChainCSS(element).addClass('myClass', 1000).removeClass('myClass', 1000).keepClass('KeepForThatTime', 1000)
 ```
 The second parameter of all functions is the time, which is a optional parameter.
 
