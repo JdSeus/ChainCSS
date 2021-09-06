@@ -16,7 +16,7 @@ To use ChainCSS you simple need to call the ChainCSS function passing a element 
 ChainCSS(element).addClass('myClass', 1000)
 ```
 
-It's called ChainCSS because the methods can be chained:
+It's called ChainCSS because all methods can be chained:
 ```javascript
 ChainCSS(element).addClass('myClass', 1000).removeClass('myClass', 1000).keepClass('KeepForThatTime', 1000)
 ```
@@ -24,9 +24,7 @@ The second parameter of all functions is the time, which is a optional parameter
 
 ### Methods
 
-The current methods of this library are:
-
-
+The current methods are:
 
 ##### addClass(cssClass, time)
 This method adds the cssClass to the element after the time setted. If the time is not setted, cssClass is added immediately.
