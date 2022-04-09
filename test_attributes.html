@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Attributes test</title>
+    </head>
+    <body>
+        <script src="ChainCSS.js"></script>
+        <script type=""text/javascript">
+        function onChangeAttributeClicked() {
+            let button = document.getElementById("change_attribute_button");
+
+            ChainCSS(button)
+            .setAttribute("disabled", "true", 1000)
+            .removeAttribute("disabled", 1000);
+        }
+        </script>
+        <p>This example demonstrates setting and removing a button's attributes after a certain delay.</p>
+        <button id="change_attribute_button" onclick="onChangeAttributeClicked()">Change attribute</button>
+    </body>
+</html>

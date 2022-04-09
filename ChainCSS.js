@@ -114,8 +114,28 @@
                 queueOrExecute(fn);
                 return this;
             },
-            
+
+            setAttribute(attribute, value, time = 0) {
+                var element = this.element;
+
+                var fn = function () {
+                    element.setAttribute(attribute, value);
+                }
+
+                return this.delay(fn, time);
+            },
+
+            removeAttribute(attribute, time = 0) {
+                var element = this.element;
+
+                var fn = function () {
+                    element.removeAttribute(attribute);
+                }
+
+                return this.delay(fn, time);
+            },
         }
+
         return self;
     }
 })();
