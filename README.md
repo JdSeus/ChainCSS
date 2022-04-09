@@ -41,6 +41,12 @@ This method will add the CssClass to the element after the time setted. Before t
 ##### transitionToNotClass(cssClass, transitionClass, time)
 This method will remove the CssClass of the element after the time setted. Before this time, the element will have the transitionClass attached to it.
 
+##### setAttribute(attribute, value, time)
+This method sets the specified attribute on the element to the specified value after the delay.
+
+##### removeAttribute(attribute, value, time)
+This method removes the specified attribute on the element after the delay.
+
 ##### delay(callback, time)
 This method is a simple delay with a callback after the time setted. It can be chained alongside the other methods, making it useful for general stuff.
 
